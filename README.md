@@ -3,3 +3,5 @@ The reason for this site is to create a modal only jquery plugin from boot strap
 I will be using it in WordPress and was thinking of just putting it in the js code that wordpress loads in in the beginning. 
 Some one has probably done this but I didn't see it when i did a quick look.
 This will be used in conjunction with the wp plugin I and working on for Bible and CCC quotes.
+
+After first look it seems that I will have to enque the css and Js files in a wp plugin for it to work.
