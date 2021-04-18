@@ -6,15 +6,12 @@
 */
 
 
-
 function modal_shortcode( $content = null ) {
 	// Enqueue the stylesheet now
 	wp_enqueue_style( 'bs_modal_css' ); 
 	wp_enqueue_style( 'po_bible_css' ); 
 	wp_enqueue_script('modal_js');
 	
-
-    
 	return $content;
 }
 
